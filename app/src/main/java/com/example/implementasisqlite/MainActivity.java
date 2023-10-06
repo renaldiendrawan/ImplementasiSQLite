@@ -80,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
                                 db.execSQL("delete from biodata where nama = '" + selection + "'");
                                 RefreshList();
                                 break;
-
                         }
                     }
                 });

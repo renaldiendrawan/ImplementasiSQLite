@@ -62,7 +62,6 @@
         android:layout_alignBaseline="@id/textView5"
         android:layout_alignBottom="@id/textView5"
         android:layout_alignLeft="@id/textView03"
-        android:layout_marginTop="20dp"
         android:text="Alamat" />
 
     <TextView
@@ -82,7 +81,6 @@
         android:layout_alignBaseline="@id/textView3"
         android:layout_alignBottom="@id/textView3"
         android:layout_alignLeft="@id/textView02"
-        android:layout_marginTop="20dp"
         android:text="Tanggal Lahir" />
 
     <TextView
@@ -92,7 +90,6 @@
         android:layout_alignBaseline="@id/textView2"
         android:layout_alignBottom="@id/textView2"
         android:layout_alignLeft="@id/textView01"
-        android:layout_marginTop="20dp"
         android:text="Nama" />
 
     <TextView
@@ -101,8 +98,7 @@
         android:id="@+id/textView01"
         android:layout_above="@id/textView2"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="20dp"
-        android:text="Alamat" />
+        android:text="Nomor" />
 
     <Button
         android:layout_width="wrap_content"

@@ -42,11 +42,9 @@ public class LihatBiodataActivity extends AppCompatActivity {
             text4.setText(cursor.getString(3).toString());
             text5.setText(cursor.getString(4).toString());
         }
-        ton2 = (Button) findViewById(R.id.button1);
-        ton2.setOnClickListener((argO) -> {
-            //TODO Auto-generated method stub
+        ton2 = findViewById(R.id.Button1);
+        ton2.setOnClickListener(argO -> {
             finish();
-
         });
     }
 }
